@@ -8,7 +8,7 @@ const guardadatos = () => {
 
     fs.writeFile(`basededatos/data.json`,data,(error) => {
 
-        if(error)  throw new error('No se pudo grabar');
+        if(error)  throw new error('No se pudo grabar!!!');
         
     });
 }
